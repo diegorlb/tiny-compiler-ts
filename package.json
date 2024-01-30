@@ -1,0 +1,19 @@
+{
+  "name": "tiny-compiler-ts",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "exec": "tsc && node ./build/index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.10"
+  }
+}
